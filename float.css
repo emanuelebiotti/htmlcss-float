@@ -1,0 +1,189 @@
+
+body {
+
+  background-color: #d9dce0;
+  width:100vw;
+  height: 100vh;
+
+}
+
+.container {
+
+  width:90vw;
+  height: 90vh;
+  margin:auto;
+  margin-top: 35px;
+}
+
+.column1 {
+
+  width:30%;
+  height:70%;
+  float:left;
+  position: relative;
+}
+
+.column2 {
+
+  width:65%;
+  height:70%;
+  float:right;
+}
+
+.column1, .column2, .footer {
+
+  background-color: white;
+}
+
+.image {
+
+  width:30%;
+  height: 20%;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url("kronk.jpg");
+  background-size: cover;
+  top:4%;
+  position: relative;
+  left:50%;
+  transform: translate(-50%, -10%);
+}
+
+#title {
+
+  width:100%;
+  height: 8%;
+  text-align: center;
+  position: relative;
+  line-height:4px;
+  top:2%;
+
+}
+
+h1, h3 {
+
+  line-height: 10px;
+}
+
+#description {
+
+  width:80%;
+  height:20%;
+  margin:auto;
+  font-size: 15px;
+  text-align: justify;
+  position: relative;
+}
+
+button {
+
+  width:50%;
+  height:25%;
+  background-color: red;
+  color:white;
+  font-size: 15px;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%, 0);
+
+}
+
+.interruzione {
+
+width:100%;
+height: 10%;
+background-color: #d9dce0;
+
+}
+
+.social {
+
+  width: 100%;
+  height:25%;
+
+}
+
+.interruzione2 {
+
+  width:100%;
+  height:15%;
+  background-color: #d9dce0;
+}
+
+
+#leRicette {
+
+  text-align: center;
+}
+
+
+.ricetta {
+
+  width:90%;
+  height:25%;
+  margin: 2%;
+  border: 1px solid black;
+}
+
+.immagineRicetta1, .immagineRicetta2, .immagineRicetta3 {
+
+  width:30%;
+  height:100%;
+  float:left;
+  background-size: cover;
+
+}
+
+.immagineRicetta1 {
+
+  background-image:url("sformatini.jpg");
+}
+
+.immagineRicetta2 {
+
+  background-image:url("bucatini.jpg");
+}
+
+.immagineRicetta3 {
+
+  background-image:url("tonnarelli.jpg");
+}
+
+.descrizioneRicetta {
+
+  width:70%;
+  height: 100%;
+  float:right;
+  font-size: 10px;
+  padding:5%;
+  box-sizing: border-box;
+}
+
+.column2:after {
+
+  clear:both;
+}
+
+.footer {
+
+  width:100%;
+  height: 20%;
+  float:left;
+  margin-top:40px;
+  position: relative;
+}
+
+.volontariato {
+  width:70%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  left:5%;
+}
+
+.links {
+
+  width: 20%;
+  height:100%;
+  float:right;
+}
